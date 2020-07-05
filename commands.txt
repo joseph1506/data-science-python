@@ -1,0 +1,2 @@
+jupyter noteboook   --- run in the desired folder
+conda update conda	--- updating conda packages	
