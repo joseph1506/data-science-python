@@ -1,0 +1,29 @@
+y = mx+c
+m= sum((x-`x)(y-`y))/ sum(square(x-`x))
+
+x	y
+1	4
+2	3
+3	4
+4	2
+5	5
+
+`x= 3
+`y=3.6
+sum((x-`x)(y-`y))=1
+sum(square(x-`x))=10
+m= 1/10 =0.1
+
+y= 0.1x+c
+subjecting to the mean values
+3.6=0.1*3+c
+c= 3.3
+
+yp = y predicted
+R**2 = sum((yp -`y)**2)/sum((y-`y)**2)
+	= 0.1/5.2
+	=0.019
+	
+	R=0.138
+	
+	R**2 shoulbe be equal to 1 to be good fit
